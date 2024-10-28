@@ -73,28 +73,28 @@ h1::before{
     padding-right: 9px;
 }
 
-nav ul{
+nav ul {
     list-style-type: none;
-    padding: 15px;
+    padding: 0;
     margin: 0;
     display: flex;
     justify-content: center;
-    /* background-color: black; */
-    border-radius: 10px;
-    
+    color: white;
+    flex-wrap: wrap; 
 }
 
-nav ul li{
-    margin: 0 35px;
+nav ul li {
+    margin: 0 10px; 
+    padding-top: 20px;
 }
 
-nav ul li a{
-    
+nav ul li a {
     text-decoration: none;
-    /* background-color: black; */
-    color: #ffffff;
-    padding: 10px;
+    color: white;
+    font-size: 1.3em;
+    transition-duration: 0.9s;
 }
+
 
 nav ul li a:hover{
     background-color: #277ce3;
