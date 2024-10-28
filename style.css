@@ -72,27 +72,27 @@ h1::before{
     /* box-shadow: 1px 1px 10px black; */
     padding-right: 9px;
 }
-
-nav ul {
+nav ul{
     list-style-type: none;
-    padding: 0;
+    padding: 15px;
     margin: 0;
     display: flex;
     justify-content: center;
-    color: white;
-    flex-wrap: wrap; 
+    /* background-color: black; */
+    border-radius: 10px;
+    
 }
 
-nav ul li {
-    margin: 0 10px; 
-    padding-top: 20px;
+nav ul li{
+    margin: 0 35px;
 }
 
-nav ul li a {
+nav ul li a{
+    
     text-decoration: none;
-    color: white;
-    font-size: 1.3em;
-    transition-duration: 0.9s;
+    /* background-color: black; */
+    color: #ffffff;
+    padding: 10px;
 }
 
 
